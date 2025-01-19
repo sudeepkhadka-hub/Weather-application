@@ -136,9 +136,10 @@
  }
 
  .levels-container {
+    background-color:white ;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
-     border: 1px solid red;
+     /* border: 1px solid red; */
      border-radius: 20px;
      align-items: center;
      /* justify-content: baseline; */
@@ -162,9 +163,10 @@
 } */
 
  .last-container {
+    background-color: white;
      display: flex;
      flex-direction: row;
-     border: 1px solid red;
+     /* border: 1px solid red; */
      border-radius: 10px;
      justify-content: space-between;
  }
